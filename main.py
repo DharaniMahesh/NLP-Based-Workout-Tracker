@@ -2,11 +2,11 @@ import requests
 from datetime import datetime
 from requests.auth import HTTPBasicAuth
 
-APP_ID = "c775bd28"
-API_KEY = "fd14d8708a1ece7cc52a60ed5de00def"
-Authorization_Header = "Basic bWFoZXNoOm1haGVzaEA3Nzc="  # for sheety
-Username = "mahesh"  # sheety username
-Password = "mahesh@222"  # sheety password
+APP_ID = "YOUR_ID"
+API_KEY = "YOUR_KEY"
+Authorization_Header = "YOUR_HEADER"  # for sheety
+Username = "YOUR_USERNAME"  # sheety username
+Password = "YOUR_PASSWORD"  # sheety password
 
 exercise_end_point = "https://trackapi.nutritionix.com/v2/natural/exercise"  # nutrinox nlp endpoint
 
